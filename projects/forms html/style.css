@@ -1,0 +1,88 @@
+/* איפוס CSS */
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#Myform {
+    width: 20%;
+    background-color:#F1F1F1;
+    padding: 3px;
+    margin: 10px;
+    border-style:groove;
+    border-color:rgb(255, 255, 255);
+
+}
+input{
+    padding: 5px;
+    margin: 2px;
+}
+select{
+    padding: 5px;
+    margin: 2px;
+}
+div{
+    padding: 1px;
+    margin: 2px;
+}
+
+label{
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+#twoInRow {
+    display: flex;
+    flex-direction: row;
+}
+#twoInRow input{
+    width: 48%;
+}
+#oneInput input{
+    width: 98%;
+
+    flex-direction: row;
+}
+#oneInput select{
+    width: 98%;
+
+    flex-direction: row;
+}
+
+#treeInArow {
+    display: flex;
+    flex-direction: row;
+}
+
+#bmonth{
+width: 40%;
+}
+
+#bDay{
+    width: 20%;
+    }
+
+#bYear{
+    width: 34%;
+}
+    
+input[type="email"]::placeholder{
+    text-align: right;
+
+}
+#sb{
+    display: flex;
+    justify-content: center
+}
+#submitBut {
+    padding: 5px;
+    margin: 2px;
+    width: 96%;
+    background-color:lawngreen ;
+}
+
+input:invalid {
+    border:2px solid red;
+}

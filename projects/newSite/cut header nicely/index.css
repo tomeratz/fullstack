@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header{
+    background-image: url(images/header-bg-2.png); 
+    background-size: cover;
+    min-height: 300px; 
+    width: 100%; 
+    position: relative; 
+    opacity: 0.8;
+}
+
+#footer{
+    background-image: url(images/header-bg-2.png); 
+    background-size: cover;
+    min-height: 300px; 
+    width: 100%; 
+    position: relative; 
+    bottom: 0;
+    z-index: 2;
+}
+
+#headerShapeImg{
+    position: absolute; 
+    bottom: -3px;
+}
+
+#footerShapeImg{
+    position: relative; 
+    top: -3px;
+    bottom: -3px;
+    transform: rotate(180deg);
+}
+
+
+#mainContent{
+    width: 80%;
+    margin: auto;
+}
+

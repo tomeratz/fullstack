@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /* background-image: url(https://image.freepik.com/free-vector/elegant-dark-background-with-golden-details_23-2148434480.jpg); */
+    background-image: url(https://media.istockphoto.com/photos/blue-defocused-blurred-motion-abstract-background-picture-id1010238190?k=6&m=1010238190&s=612x612&w=0&h=EDqJwTkslvDYAe7vrV9hsxojxujs8J17pTwV_CeuY2E=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2.5%;
+}
+
+/* #main{
+        
+} */
+
+#title h1{
+    color: gold;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+#menu{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: auto;
+    width: 75%;
+    height: 20%;
+    /* background-color:rgba(97, 90, 62, 0.3) ; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+#menu button{
+    width: 20%;
+    height: 75px;
+    text-align: center;
+    margin-left: 1%;
+    background-color: rgb(128, 0, 128,0.7);
+    color: gold;
+    font-size: 85%;
+    border-radius: 10px;
+    border-style:solid;
+}
+
+#start {
+    width: 20%;
+    height: 75px;
+    text-align: center;
+    margin-left: 1%;
+    background-color: rgba(21, 240, 50, 0.7);
+    color: gold;
+    font-size: 85%;
+    border-radius: 10px;
+    border-style:solid;
+}
+
+#menu input{
+    text-align: center;
+    width: 20%;
+    height: 75px;
+    padding: 1%;
+    margin-left: 1%;
+    background-color: rgb(128, 0, 128,0.7);
+    color: gold;
+    font-size: 85%;
+    border-radius: 10px;
+    border-style:solid;
+}
+
+#menu select{
+    text-align: center;
+    width: 20%;
+    height: 75px;
+    padding: 1%;
+    margin-left: 1%;
+    background-color: rgb(128, 0, 128,0.7);
+    color: gold;
+    font-size: 85%;
+    border-radius: 10px;
+    border-style:solid;
+}
+
+
+#robots{
+    margin: auto;
+    padding: 1%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 65%;
+    /* background-color:rgba(128, 0, 128, 0.4) ; */
+    /* background-image: url('https://pub-static.haozhaopian.net/assets/stickers/jieba05/3165d8a6-e750-4459-bd51-2bd786a6517f_medium_thumb.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    /* border: solid rgb(251, 255, 0,0.5) 1.5px; */
+    vertical-align:middle;
+}
+#robotImg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#gameOver {
+/* justify-content:start; */
+}
+
+#gameOverImg {
+    float:ce;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+} 
+
+#robots div{
+    align-content: center;
+    vertical-align:middle;
+}
+
+
+/* #robotImg div{
+    width: 180px;
+    height: 180px;
+    min-height: 150px;
+    background-image: url('https://cdn.statically.io/img/i.pinimg.com/originals/9f/03/59/9f03594028b7f880df04b3d8ea41d3e7.gif');
+    background-size: 350%,350%;
+    background-repeat: no-repeat;
+    margin: 5px;
+    border-radius: 10px;
+} */
+
+#robotImg img{
+    width: 180px;
+    height: 180px;
+    min-height: 150px;
+    background-image: url('https://cdn.statically.io/img/i.pinimg.com/originals/9f/03/59/9f03594028b7f880df04b3d8ea41d3e7.gif');
+    background-size: 350%,350%;
+    background-repeat: no-repeat;
+    margin: 9px;
+    border: thin navy;
+    border-style: solid;
+    border-radius: 6px;
+    transition: ease-in 750ms ;
+}
+
+/* #robotImg img:hover{
+    transform:scale(1.05);
+    border-color: gold;
+    border-radius: 5px;
+} */

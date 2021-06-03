@@ -1,0 +1,16 @@
+#imgs img {
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border-width: 5px;
+    /* border-style: ridge; */
+    border-radius: 15px;
+    flex: auto;
+    flex-direction: column;
+}
+
+#imgs img:hover{
+    border-width: 5px;
+    /* border-color: lawngreen; */
+    transform: scale(1.05);
+}

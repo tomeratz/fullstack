@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: 2%;
+
+}
+
+button{
+    padding: 5px;
+    margin: 1%;
+    left: 10px;
+}
+
+#showDisappear{
+    border: black 2px solid;
+    padding: 2%;
+    margin: 1%;
+    width: 80%;
+}
+
+p {
+    border: black 2px solid;
+    padding: 2%;
+    margin: 1%;
+    width: 80%;
+}
+
+#parag1{
+    background-color: cornflowerblue;
+}
+
+#parag2{
+    background-color:darkgray
+}

@@ -1,0 +1,102 @@
+/* איפוס CSS */
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+#Myform {
+    width: 20%;
+    min-width: 400px;
+    background-color:#f1f1f16c;
+    padding: 3px;
+    margin: 10px;
+    border:1px rgb(141, 141, 141) solid;
+
+}
+
+#loginForm{
+    width: 220px;
+    height: 120px;
+    padding: 3px;
+    margin: 10px;
+    background-color:#f1f1f16c;
+    border:1px rgb(141, 141, 141) solid;
+}
+input{
+    padding: 5px;
+    margin: 2px;
+    border:1px rgb(141, 141, 141) solid;
+}
+select{
+    padding: 5px;
+    margin: 2px;
+}
+div{
+    padding: 1px;
+    margin: 2px;
+}
+
+label{
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+#twoInRow {
+    display: flex;
+    flex-direction: row;
+}
+#twoInRow input{
+    width: 48%;
+}
+#oneInput input{
+    width: 98%;
+
+    flex-direction: row;
+}
+#oneInput select{
+    width: 98%;
+
+    flex-direction: row;
+}
+
+#treeInArow {
+    display: flex;
+    flex-direction: row;
+}
+
+#bmonth{
+width: 40%;
+}
+
+#bDay{
+    width: 20%;
+    }
+
+#bYear{
+    width: 34%;
+}
+    
+input[type="email"]::placeholder{
+    text-align: right;
+
+}
+#sb{
+    display: flex;
+    justify-content: center
+}
+input[type="submit"] {
+    padding: 5px;
+    margin: 2px;
+    width: 96%;
+    background-color:rgb(89, 168, 9) ;
+}
+
+
+input:invalid {
+    border:1px solid red;
+}

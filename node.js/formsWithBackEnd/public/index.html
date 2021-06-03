@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <form id="register" action="/theregister" method="POST">
+        <h2>Register new user</h2>
+        Name:
+        <div id="names" class="sameRow">
+            <input id="fname" type="text" name="fname" placeholder="first name: ">
+            <input id="lname" type="text" name="lname" placeholder="last name: ">
+        </div>
+        User ID:
+        <div id="userid">
+            <input type="text" name="user" placeholder="@gmail.com">
+        </div>
+        password:
+        <div id="passwords" >
+            <input  type="password" name="pass">
+        </div>
+        confirm password:
+        <div id="confirmpassword">
+            <input  type="password" name="confirmpass">
+        </div>
+        Birthday:
+        <div id="birthday" class="sameRow">
+            <select 
+                onchange="document.getElementById('day').disabled=false ; document.getElementById('year').disabled=false "
+                name="month" id="month" >
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+                <option value="Jun">Jun</option>
+                <option value="Jul">Jul</option>
+                <option value="Aug">Aug</option>
+                <option value="Sep">Sep</option>
+                <option value="Oct">Oct</option>
+                <option value="Nov">Nov</option>
+                <option value="Dec">Dec</option>
+            </select>
+            <input id="day" type="number" min="1" max="31" step="1" value="1" disabled />
+            <input id="year" type="number" min="1921" max="2021" step="1" value="2021" disabled />
+        </div>
+        Gender:
+        <div id="genderselect">
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        Phone number:
+        <div id="phone">
+            <input id="telId" name="telNo" type="tel" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+        <div id="submit">
+            <input type="Submit" value="Submit">
+        </div>
+    </form>
+
+
+    <form id="login" action="/thelogin" method="POST">
+        <h2>Login:</h2>
+        <div id="useridlogin">
+            <input type="text" name="user" placeholder="user id">
+        </div>
+        <div id="passwordlogin" >
+            <input  type="password" name="pass" placeholder="password">
+        </div>
+        <div id="enter">
+            <input type="submit" value="login">
+        </div>
+
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

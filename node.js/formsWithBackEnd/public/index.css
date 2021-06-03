@@ -1,0 +1,167 @@
+*{margin: 0; padding: 0; box-sizing:border-box;}
+
+input:invalid {background-color: crimson;}
+
+.sameRow 
+{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#register
+{
+    width: 40%;
+    margin: auto;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+#names input
+{
+    width: 49%;
+    padding: 5px;
+    border :inset 3px rgb(5, 64, 141);
+    border-radius: 4px;
+    
+}
+
+#lname 
+{
+    margin-left: 1%;
+}
+
+#passwords input
+{
+    width: 98%;
+    margin:auto;
+}
+
+#confirmpassword input
+{
+    width: 98%;
+    margin: auto;
+}
+
+#passwords , #confirmpassword 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#month , #day , #year
+{
+    width: 40%;
+}
+
+#day, #year
+{
+    margin-left: 2%;
+}
+
+#userid 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#userid input 
+{
+    width: 98%;
+    margin :auto;
+}
+
+#genderselect 
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#genderselect select 
+{
+    width:98%;
+    margin: auto;
+}
+
+#phone 
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#phone input 
+{
+    width:98%;
+    margin: auto;
+}
+
+#submit
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+#submit input   
+{
+    width:100%;
+    margin: auto;
+}
+
+#login
+{
+    width: 40%;
+    margin: auto;
+    background-color: rgb(235, 28, 28);
+    padding: 10px;
+}
+
+#useridlogin 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+#useridlogin input
+{
+    width: 98%;
+    margin :auto;
+}
+
+#passwordlogin 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+#passwordlogin input
+{
+    width: 98%;
+    margin:auto;
+}
+
+#enter
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+#enter input   
+{
+    width:100%;
+    margin: auto;
+}

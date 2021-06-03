@@ -1,0 +1,31 @@
+/* *{
+    border: 1px solid red;
+} */
+
+
+*,body,div{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+#mainGallery{
+    text-align: center;
+}
+
+
+#divAroundAll{
+    text-align: center;
+}
+
+#mainGallery img{
+    padding: 4px 8px;
+    border-radius: 10%;
+}
+
+#mainGallery img:hover{
+    transition: 0.1ms;
+        padding: 0;
+}
