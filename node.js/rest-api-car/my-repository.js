@@ -1,10 +1,10 @@
-// const { Console } = require('console');
-const fs = require('fs');
-// const { parse } = require('path');
-const ShortUniqueId = require('short-unique-id');
+const rentalModels = require('./models/rentalModels');
 const ObjectId = require('mongodb').ObjectID;
-const mongoose = require('mongoose');
+const ShortUniqueId = require('short-unique-id');
+// const { Console } = require('console');
+// const { parse } = require('path');
 
+const Car = rentalModels.Car
 
 
 function newUID() {
@@ -22,11 +22,14 @@ function newOwnerUID() {
     return uidWithTimestamp
 }
 
+
+
 module.exports = {
 
-    // async getAllCars() {
-    //     const data = await MyModel.find({});
-    //     return data
+    async getAllCars() {
+        const data = await Car.find({});
+        console.log('getAllCars data: ' + JSON.stringify(data));
+        return data;
     },
 
     getCarById(theId) {
