@@ -1,0 +1,13 @@
+{{ model | json | lowercase}}
+
+<h1>Register:</h1>
+<form action="">
+    <div>
+        <label for="fullName">Full Name:</label>
+        <input id="fullName" type="text" required [(ngModel)]="model.fullName" name="fullName">
+        <label for="email">Email:</label>
+        <input id="email" type="text" required [(ngModel)]="model.email" name="email">
+        <label for="msgContent">Type your message here:</label>
+        <input id="msgContent" type="text" required [(ngModel)]="model.msgContent" name="msgContent">
+    </div>
+</form>

@@ -1,0 +1,6 @@
+<div class="cardContainer" *ngIf='theUserOfTheCard'>
+    <div><img [src]='theUserOfTheCard.picture.large' alt=""></div>
+    <div>
+        <label>{{theUserOfTheCard.name.first}} {{theUserOfTheCard.name.last}}</label>
+    </div>
+</div>

@@ -1,4 +1,4 @@
-//Require
+//schema
 
 const mongoose = require('mongoose');
 var url = `mongodb+srv://${process.env.USERNAMEATLAS}:${process.env.PASSWORDATLAS}@cluster0.73pfz.mongodb.net/CarsDb?retryWrites=true&w=majority`;

@@ -1,0 +1,14 @@
+.cardContainer {
+  border: 1px grey solid;
+  margin: 7.5px;
+  min-width: 200px;
+  height: 230px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}

@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/:id', async (req, res) => {
-    // console.log(req.params.id);
+    console.log(req);
     res.send(await myrepository.getCarById(req.params.id));
 });
 
@@ -19,7 +19,7 @@ router.put('/:id', async (req, res) => {
 });
 
 router.delete('/:id', async (req, res) => {
-    // console.log(req.params.id);
+    console.log(req.params.id);
     res.send(await myrepository.deleteCarById(req.params.id));
 });
 

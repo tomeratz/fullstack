@@ -1,0 +1,156 @@
+[
+  {
+    "_id": "6050fd8c0aa0360015baa150",
+    "manufacturer": "Audi",
+    "model": "RS7",
+    "year": 2021,
+    "plate": "asdf3452ghfy",
+    "ownerFirstName": "Shadi",
+    "ownerLasttName": "Sliman",
+    "ownerID": "123456123",
+    "__v": 0
+  },
+  {
+    "_id": "6050ff3e0aa0360015baa16c",
+    "manufacturer": "mazda",
+    "model": "12345",
+    "year": 2020,
+    "plate": "hjgjxtsfags",
+    "ownerFirstName": "Dan",
+    "ownerLasttName": "Klein",
+    "ownerID": "543267584",
+    "__v": 0
+  },
+  {
+    "_id": "6050ff840aa0360015baa16e",
+    "manufacturer": "mazda",
+    "model": "12345",
+    "year": 2020,
+    "plate": "gd5sytravsf4",
+    "ownerFirstName": "Marry",
+    "ownerLasttName": "Klein",
+    "ownerID": "333267584",
+    "__v": 0
+  },
+  {
+    "_id": "6050ffbe0aa0360015baa174",
+    "manufacturer": "seat cubra",
+    "model": "57789b",
+    "year": 2021,
+    "plate": "mhmgmfmdmsea",
+    "ownerFirstName": "mhmd",
+    "ownerLasttName": "msarwe",
+    "ownerID": "035555301",
+    "__v": 0
+  },
+  {
+    "_id": "6050fff80aa0360015baa17b",
+    "manufacturer": "Chevrolet",
+    "model": "Camaro",
+    "year": 2021,
+    "plate": "abcdefghijkL",
+    "ownerFirstName": "Mahdi",
+    "ownerLasttName": "Jbae",
+    "ownerID": "352197543",
+    "__v": 0
+  },
+  {
+    "_id": "6051005c0aa0360015baa185",
+    "manufacturer": "mazda",
+    "model": "Cle555",
+    "year": 2021,
+    "plate": "fffffggggggg",
+    "ownerFirstName": "karin",
+    "ownerLasttName": "Doe",
+    "ownerID": "322271826",
+    "__v": 0
+  },
+  {
+    "_id": "605100df0aa0360015baa18e",
+    "manufacturer": "[Ferrari]",
+    "model": "spider",
+    "year": 1920,
+    "plate": "123456789101",
+    "ownerFirstName": "Farouk",
+    "ownerLasttName": "SHT",
+    "ownerID": "123456789",
+    "__v": 0
+  },
+  {
+    "_id": "605101350aa0360015baa195",
+    "manufacturer": "subaru",
+    "model": "5555555",
+    "year": 2020,
+    "plate": "gd5sytravsf4",
+    "ownerFirstName": "Marry",
+    "ownerLasttName": "Klein",
+    "ownerID": "333267584",
+    "__v": 0
+  },
+  {
+    "_id": "605101aa0aa0360015baa19f",
+    "manufacturer": "honda",
+    "model": "civic",
+    "year": 2015,
+    "plate": "12345678911",
+    "ownerFirstName": "jan",
+    "ownerLasttName": "abu hanna",
+    "ownerID": "123456789",
+    "__v": 0
+  },
+  {
+    "_id": "hQ1OfFrew9V60b792e0pvCWb",
+    "manufacturer": "Subaru",
+    "model": "mazda 6",
+    "year": "2000",
+    "plate": "hjgksts55gs",
+    "ownerFirstName": "Donald",
+    "ownerLasttName": "Trump",
+    "ownerID": "360b792e01",
+    "__v": "0"
+  },
+  {
+    "_id": "nOv7vItkNI60b792f6Ymg9Wa",
+    "manufacturer": "Subaru",
+    "model": "mazda 6",
+    "year": "2000",
+    "plate": "hjgksts55gs",
+    "ownerFirstName": "Donald",
+    "ownerLasttName": "Trump",
+    "ownerID": "60b792f690",
+    "__v": "0"
+  },
+  {
+    "_id": "M0l0hY35dbj6D60b79336s1d",
+    "manufacturer": "Subaru",
+    "model": "mazda 6",
+    "year": "2000",
+    "plate": "hjgksts55gs",
+    "ownerFirstName": "Donald",
+    "ownerLasttName": "Trump",
+    "ownerID": "60b7933680",
+    "__v": "0"
+  },
+  {
+    "_id": "YfCuvSm60b87b9e8kC0Yngx7",
+    "manufacturer": "Subaru",
+    "model": "mazda 6",
+    "year": "2000",
+    "plate": "hjgksts55gs",
+    "ownerFirstName": "Donald",
+    "ownerLasttName": "Trump",
+    "ownerID": "460b87b9e1",
+    "__v": "0"
+  },
+  {
+    "_id": "605101a50aa0360015baa19e",
+    "manufacturer": "Tesla",
+    "model": "berlengo",
+    "year": 2012,
+    "plate": "12345678901",
+    "ownerFirstName": "abed",
+    "ownerLasttName": "nama",
+    "ownerID": "002299334",
+    "__v": 0
+  }
+]

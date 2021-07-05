@@ -1,0 +1,19 @@
+.itemClass {
+  border: 1px royalblue solid;
+  /* display: flex;
+  flex-wrap: wrap; */
+  max-width: 180px;
+  min-height: 250px;
+  justify-content: center;
+  margin: 2%;
+}
+
+.imgClass {
+  border: 1px royal solid;
+  min-height: 180px;
+  margin: 10px;
+}
+
+.titleClass {
+  font-weight: 500;
+}

@@ -1,0 +1,11 @@
+<div>Search User:
+    <input type="search" id="searchUserByName" name="searchUserByName" #myInput
+        (input)='checkUserUpdate(myInput.value)'>
+    <ditails-view></ditails-view>
+</div>
+
+<div class="galleryContainer">
+    <card *ngFor="let curr of usersArr; index as i" [theUserOfTheCard]="curr" [theIndex]='i'>
+    </card>
+
+</div>
