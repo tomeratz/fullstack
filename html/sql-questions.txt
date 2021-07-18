@@ -1,0 +1,9 @@
+1.How many customers do we have in our database? - 
+2.How many of our customer names begin with the letter "b"? 
+3.How many customers do we have in each city? 
+4.What are the last names of all employees who were born in the month of July?
+5.Name the top 3 countries that we ship our orders to?
+6.List the following employee information (EmployeeID, LastName, FirstName, BirthDate, City, ReportsTo)
+7.In terms of sales value, what has been our best selling product of all time?
+8.What is the average value of a sales order?
+9.Product report (productID, ProductName, Supplier Name, Product Category). Order the list by categoryId.

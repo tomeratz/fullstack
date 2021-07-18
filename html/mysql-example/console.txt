@@ -1,0 +1,492 @@
+
+
+[KGET:/api/users/14
+[K	done:0
+[K
+[K	rps: [38;5;196m0[0m
+[K	response: [38;5;196m1[0mms(min)	[38;5;46m0[0mms(max)	NaN[0mms(avg)[K[?25l[5A[K
+[K
+[K
+[K
+[K
+[5AError: connect ECONNRESET 127.0.0.1:5757
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+[KGET:/api/users/14
+[K	done:0	errors:[38;5;196m12[0m
+[K
+[K	rps: [38;5;196m0[0m
+[K	response: [38;5;196m1[0mms(min)	[38;5;46m0[0mms(max)	NaN[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1	errors:[38;5;196m13[0m
+[K	[38;5;46m200[0m OK: 1
+[K	rps: [38;5;196m1[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m730[0mms(max)	[38;5;196m730[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1	errors:[38;5;196m13[0m
+[K	[38;5;46m200[0m OK: 1
+[K	rps: [38;5;196m1[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m730[0mms(max)	[38;5;196m730[0mms(avg)[K[?25l[5A[K
+[K
+[K
+[K
+[K
+[5AError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+
+[KGET:/api/users/14
+[K	done:20	errors:[38;5;196m66[0m
+[K	[38;5;46m200[0m OK: 20
+[K	rps: [38;5;196m19[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m959[0mms(max)	[38;5;196m915[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:40	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 40
+[K	rps: [38;5;196m36[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1080[0mms(max)	[38;5;196m982[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:51	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 51
+[K	rps: [38;5;196m42[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1159[0mms(max)	[38;5;196m1014[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:81	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 81
+[K	rps: [38;5;196m62[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1278[0mms(max)	[38;5;196m1093[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:151	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 151
+[K	rps: [38;5;196m107[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1361[0mms(max)	[38;5;196m1202[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:210	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 210
+[K	rps: [38;5;196m139[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1441[0mms(max)	[38;5;196m1261[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:291	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 291
+[K	rps: [38;5;196m181[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1552[0mms(max)	[38;5;196m1332[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:350	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 350
+[K	rps: [38;5;196m205[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1638[0mms(max)	[38;5;196m1378[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:413	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 413
+[K	rps: [38;5;196m228[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1739[0mms(max)	[38;5;196m1427[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:461	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 461
+[K	rps: [38;5;196m241[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1814[0mms(max)	[38;5;196m1464[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:524	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 524
+[K	rps: [38;5;196m261[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m1926[0mms(max)	[38;5;196m1516[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:601	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 601
+[K	rps: [38;5;196m285[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2009[0mms(max)	[38;5;196m1574[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:691	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 691
+[K	rps: [38;5;196m313[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2098[0mms(max)	[38;5;196m1638[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:760	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 760
+[K	rps: [38;5;196m329[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2186[0mms(max)	[38;5;196m1684[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:831	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 831
+[K	rps: [38;5;196m345[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2275[0mms(max)	[38;5;196m1731[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:908	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 908
+[K	rps: [38;5;196m362[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2370[0mms(max)	[38;5;196m1781[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:971	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 971
+[K	rps: [38;5;196m372[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2464[0mms(max)	[38;5;196m1822[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1045	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1045
+[K	rps: [38;5;196m386[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2555[0mms(max)	[38;5;196m1871[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1131	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1131
+[K	rps: [38;5;196m403[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2646[0mms(max)	[38;5;196m1926[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1210	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1210
+[K	rps: [38;5;196m416[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2736[0mms(max)	[38;5;196m1976[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1281	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1281
+[K	rps: [38;5;196m426[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2818[0mms(max)	[38;5;196m2021[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1352	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1352
+[K	rps: [38;5;196m435[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m2913[0mms(max)	[38;5;196m2064[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1421	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1421
+[K	rps: [38;5;196m443[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3002[0mms(max)	[38;5;196m2108[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1511	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1511
+[K	rps: [38;5;196m456[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3094[0mms(max)	[38;5;196m2163[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1551	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1551
+[K	rps: [38;5;196m455[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3190[0mms(max)	[38;5;196m2189[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1620	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1620
+[K	rps: [38;5;196m461[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3287[0mms(max)	[38;5;196m2230[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1670	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1670
+[K	rps: [38;5;196m462[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3377[0mms(max)	[38;5;196m2263[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1761	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1761
+[K	rps: [38;5;196m474[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3613[0mms(max)	[38;5;196m2326[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1885	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1885
+[K	rps: [38;5;196m495[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3712[0mms(max)	[38;5;196m2405[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:1956	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 1956
+[K	rps: [38;5;196m500[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3770[0mms(max)	[38;5;196m2452[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2012	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2012
+[K	rps: [38;5;196m501[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3770[0mms(max)	[38;5;196m2486[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2078	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2078
+[K	rps: [38;5;196m505[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m3959[0mms(max)	[38;5;196m2526[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2138	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2138
+[K	rps: [38;5;196m507[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4061[0mms(max)	[38;5;196m2566[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2174	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2174
+[K	rps: [38;5;196m504[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4155[0mms(max)	[38;5;196m2592[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2221	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2221
+[K	rps: [38;5;196m503[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4179[0mms(max)	[38;5;196m2621[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2271	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2271
+[K	rps: [38;5;196m503[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4330[0mms(max)	[38;5;196m2657[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2309	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2309
+[K	rps: [38;5;196m501[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4395[0mms(max)	[38;5;196m2685[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2361	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2361
+[K	rps: [38;5;196m501[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4449[0mms(max)	[38;5;196m2719[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2509	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2509
+[K	rps: [38;5;196m521[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4599[0mms(max)	[38;5;196m2822[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2590	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2590
+[K	rps: [38;5;196m527[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4636[0mms(max)	[38;5;196m2873[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2636	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2636
+[K	rps: [38;5;196m526[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4739[0mms(max)	[38;5;196m2901[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2726	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2726
+[K	rps: [38;5;196m533[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4832[0mms(max)	[38;5;196m2952[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2840	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2840
+[K	rps: [38;5;196m545[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m4917[0mms(max)	[38;5;196m3011[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:2949	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 2949
+[K	rps: [38;5;196m555[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5019[0mms(max)	[38;5;196m3067[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3085	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3085
+[K	rps: [38;5;196m570[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5115[0mms(max)	[38;5;196m3135[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3157	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3157
+[K	rps: [38;5;196m573[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5196[0mms(max)	[38;5;196m3169[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3258	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3258
+[K	rps: [38;5;196m580[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5310[0mms(max)	[38;5;196m3221[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3335	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3335
+[K	rps: [38;5;196m584[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5407[0mms(max)	[38;5;196m3258[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3491	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3491
+[K	rps: [38;5;196m601[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5500[0mms(max)	[38;5;196m3332[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3559	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3559
+[K	rps: [38;5;196m602[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5599[0mms(max)	[38;5;196m3365[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3651	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3651
+[K	rps: [38;5;196m607[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5699[0mms(max)	[38;5;196m3410[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3733	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3733
+[K	rps: [38;5;196m611[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5796[0mms(max)	[38;5;196m3453[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3791	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3791
+[K	rps: [38;5;196m610[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5893[0mms(max)	[38;5;196m3485[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3850	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3850
+[K	rps: [38;5;196m610[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m5989[0mms(max)	[38;5;196m3510[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:3924	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 3924
+[K	rps: [38;5;196m612[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6085[0mms(max)	[38;5;196m3542[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4055	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4055
+[K	rps: [38;5;196m622[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6181[0mms(max)	[38;5;196m3600[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4142	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4142
+[K	rps: [38;5;196m626[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6280[0mms(max)	[38;5;196m3635[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4256	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4256
+[K	rps: [38;5;196m634[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6382[0mms(max)	[38;5;196m3687[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4376	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4376
+[K	rps: [38;5;196m642[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6478[0mms(max)	[38;5;196m3740[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4444	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4444
+[K	rps: [38;5;196m642[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6560[0mms(max)	[38;5;196m3772[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4544	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4544
+[K	rps: [38;5;196m647[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6672[0mms(max)	[38;5;196m3815[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4661	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4661
+[K	rps: [38;5;196m655[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6770[0mms(max)	[38;5;196m3865[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4731	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4731
+[K	rps: [38;5;196m655[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6870[0mms(max)	[38;5;196m3896[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4801	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4801
+[K	rps: [38;5;196m656[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m6950[0mms(max)	[38;5;196m3930[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4881	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4881
+[K	rps: [38;5;196m658[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7063[0mms(max)	[38;5;196m3972[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:4951	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 4951
+[K	rps: [38;5;196m658[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7127[0mms(max)	[38;5;196m4000[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5061	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5061
+[K	rps: [38;5;196m664[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7264[0mms(max)	[38;5;196m4050[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5148	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5148
+[K	rps: [38;5;196m666[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7362[0mms(max)	[38;5;196m4087[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5250	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5250
+[K	rps: [38;5;196m671[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7453[0mms(max)	[38;5;196m4129[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5366	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5366
+[K	rps: [38;5;196m677[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7551[0mms(max)	[38;5;196m4179[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5441	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5441
+[K	rps: [38;5;196m678[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7647[0mms(max)	[38;5;196m4207[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5508	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5508
+[K	rps: [38;5;196m678[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7741[0mms(max)	[38;5;196m4233[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5552	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5552
+[K	rps: [38;5;196m675[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7847[0mms(max)	[38;5;196m4250[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5599	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5599
+[K	rps: [38;5;196m672[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m7947[0mms(max)	[38;5;196m4267[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5631	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5631
+[K	rps: [38;5;196m668[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8042[0mms(max)	[38;5;196m4279[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5781	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5781
+[K	rps: [38;5;196m678[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8139[0mms(max)	[38;5;196m4354[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5892	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5892
+[K	rps: [38;5;196m683[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8239[0mms(max)	[38;5;196m4408[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:5969	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 5969
+[K	rps: [38;5;196m684[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8335[0mms(max)	[38;5;196m4444[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6046	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6046
+[K	rps: [38;5;196m685[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8411[0mms(max)	[38;5;196m4477[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6104	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6104
+[K	rps: [38;5;196m684[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8531[0mms(max)	[38;5;196m4504[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6215	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6215
+[K	rps: [38;5;196m689[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8625[0mms(max)	[38;5;196m4558[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6312	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6312
+[K	rps: [38;5;196m692[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8722[0mms(max)	[38;5;196m4607[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6404	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6404
+[K	rps: [38;5;196m694[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8818[0mms(max)	[38;5;196m4657[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6499	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6499
+[K	rps: [38;5;196m697[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m8911[0mms(max)	[38;5;196m4701[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6581	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6581
+[K	rps: [38;5;196m698[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m9010[0mms(max)	[38;5;196m4744[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6664	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6664
+[K	rps: [38;5;196m699[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m9112[0mms(max)	[38;5;196m4787[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6719	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6719
+[K	rps: [38;5;196m698[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m9210[0mms(max)	[38;5;196m4809[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6784	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6784
+[K	rps: [38;5;196m697[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m9310[0mms(max)	[38;5;196m4838[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6857	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6857
+[K	rps: [38;5;196m698[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m9397[0mms(max)	[38;5;196m4867[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:6935	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 6935
+[K	rps: [38;5;196m699[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m9505[0mms(max)	[38;5;196m4896[0mms(avg)[K[?25l[5A
+[KGET:/api/users/14
+[K	done:7004	errors:[38;5;196m113[0m
+[K	[38;5;46m200[0m OK: 7004
+[K	rps: [38;5;196m700[0m
+[K	response: [38;5;196m730[0mms(min)	[38;5;196m9587[0mms(max)	[38;5;196m4916[0mms(avg)[K[?25l
+[?25h

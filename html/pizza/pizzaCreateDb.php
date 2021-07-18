@@ -1,21 +1,25 @@
 <?php
 session_start();
+echo "start" . "</br>";
 try {
-    $con = new PDO("mysql:host=localhost;dbname=ofra_new", "ofra", "1234");
-
-
+    $con = new PDO("mysql:host=localhost;dbname=pizza", "tomeratz", "1234");
     // To Create table using PHP code instead of from the PHPMyAdmin Dashboard:
     $createTable =
-        $con->prepare("CREATE TABLE IF NOT EXISTS members (
-            id int(10) UNSIGNED NOT NULL AUTO_INCREMENT, 
-             name varchar(60) DEFAULT NULL,
-             phone varchar(14) DEFAULT NULL,
-             city varchar(60) DEFAULT NULL,
-             date_added date DEFAULT NULL,
-            PRIMARY KEY (id)
-         );");
-    $createTable->execute();
+        $con->prepare("CREATE TABLE SoldExtars 
+        (
+           id int AUTO_INCREMENT NOT NULL PRIMARY KEY,
+           extraId int NOT NULL,
+           pizzaId int NOT NULL,
+           FOREIGN KEY (extraId) REFERENCES ExtraDescript(id),
+           FOREIGN KEY (pizzaId) REFERENCES PizzaOrd(id)
+           
 
-          catch (PDOException $e) {
+         );");
+    echo "end";
+
+    $createTable->execute();
+} //end of "try" (from the try-catch structure)
+
+catch (PDOException $e) {
     echo "error" . $e->getMessage();
 }
