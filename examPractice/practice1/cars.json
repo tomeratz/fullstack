@@ -1,0 +1,37 @@
+[
+  {
+    "id": "2",
+    "manufacturer": "subaru",
+    "model": "Outback",
+    "year": 2019,
+    "plate": "def456"
+  },
+  {
+    "manufacturer": "Mazda",
+    "model": "3",
+    "year": "2014",
+    "plate": "ghk111",
+    "id": "4"
+  },
+  {
+    "manufacturer": "Mazda",
+    "model": "3",
+    "year": "2014",
+    "plate": "ghk111",
+    "id": "5"
+  },
+  {
+    "id": "6",
+    "manufacturer": "toyota",
+    "model": "3",
+    "year": "2014",
+    "plate": "ghk111"
+  },
+  {
+    "id": "3",
+    "manufacturer": "Subaru",
+    "model": "xv",
+    "year": "2014",
+    "plate": "ghk111"
+  }
+]

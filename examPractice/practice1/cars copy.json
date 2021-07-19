@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "manufacturer": "Mazda",
+    "model": "6",
+    "year": 2020,
+    "plate": "abc123"
+  },
+  {
+    "id": "2",
+    "manufacturer": "subaru",
+    "model": "Outback",
+    "year": 2019,
+    "plate": "def456"
+  },
+  {
+    "id": "3",
+    "manufacturer": "Toyota",
+    "model": "Rav4",
+    "year": 2014,
+    "plate": "ghk111"
+  }
+]

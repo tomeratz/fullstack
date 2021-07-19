@@ -25,7 +25,8 @@ function newOwnerUID() {
 module.exports = {
 
     async getAllCars() {
-        const data = await MyModel.find({});
+        const data = JSON.parse(fs.readFileSync('./cars.json', 'utf8'))
+        // const data = await MyModel.find({});
         return data
     },
 
