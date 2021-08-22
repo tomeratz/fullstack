@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #4e7183;
+  --dark-color: #0f112b;
+  --highlight-color: #dd7474;
+  --light-color: #ececec;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ----------- Card -------------- */
+.card {
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: var(--light-color);
+  padding: 5px;
+}
+
+.card div {
+  color: indigo;
+  max-width: 180px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 180px;
+  height: 210px;
+}
+
+.card #emailDiv {
+  font-size: smaller;
+}
+/* ----------- end Card ---------- */
+
+/* ----------- Nav -------------- */
+.nav * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-color);
+}
+
+.nav .myLink {
+  color: var(--highlight-color);
+  padding: 20px 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav .myLink:hover {
+  background-color: var(--primary-color);
+}
+
+.nav #middleNavDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.nav #middleNavDiv .myLink {
+  margin-left: 5px;
+}
+
+.nav #leftSideNavDiv {
+  margin-left: 50px;
+}
+
+.nav #rightSideNavDiv {
+  margin-right: 50px;
+}
+
+/* ----------- end Nav ---------- */
+
+/* ----------- Gallery ---------- */
+.gallery #divAroundGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery .pre-loader {
+  display: flex;
+  margin: 200px auto;
+  width: 66px;
+  height: 50px;
+}
+
+.gallery .pre-loader > div {
+  background-color: #34495e;
+  margin-right: 10px;
+  height: 100%;
+  width: 20px;
+  display: inline-block;
+}
+
+.gallery .pre-loader .box1,
+.gallery .pre-loader .box3,
+.gallery .pre-loader .box5 {
+  animation: heightChange1 1s infinite ease-in-out;
+}
+
+@keyframes heightChange1 {
+  0%,
+  60%,
+  100% {
+    transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+}
+
+.gallery .pre-loader .box2,
+.gallery .pre-loader .box4 {
+  animation: heightChange2 1s infinite ease-in-out;
+}
+
+@keyframes heightChange2 {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+}
+
+/* ----------- end Gallery ------ */

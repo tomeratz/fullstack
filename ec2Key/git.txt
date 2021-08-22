@@ -1,0 +1,20 @@
+
+ssh -i my_aws_keypair.pem ubuntu@54.201.162.177
+
+https://github.com/tomeratz/BizibiAngularGit.git
+
+
+git push -u  https://tomeratz:Atz529233@github.com/tomeratz/my_node_proj.git
+git push -u  https://tomeratz:<your pass goes here>@github.com/MediBx/my_node_proj.git
+
+
+echo "# New_node_proj" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/tomeratz/bizibi_backend.git
+git push -u https://tomeratz:Atz529233@github.com/tomeratz/bizibi_backend.git
+
+
+git clone https://github.com/tomeratz/ .git

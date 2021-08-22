@@ -7,18 +7,22 @@
 }
 
 body {
-  background-color: rgb(252, 244, 244);
+  background-color: #ffffff;
 }
 .navbar {
   display: flex;
   flex-direction: row;
   flex-wrap: 0;
-  background-color: black;
-  border-bottom: 4px #ffd000 solid;
-  border-radius: 0px 0px 10px 10px;
+  background-color: #fafafb;
+  border-bottom: 1px #e8e8e8 solid;
+  border-top: 2px #f48024 solid;
   padding-left: 20px;
+  height: 47px;
 }
 
+.navbar img {
+  margin: auto;
+}
 .menuItems {
   padding: 1em;
   cursor: pointer;
@@ -54,4 +58,21 @@ body {
   padding: 1em;
   border: 1px gray solid;
   border-radius: 5px;
+}
+.code {
+  width: 100vh;
+
+  margin: auto;
+  margin-top: 2em;
+}
+
+.code p {
+  width: 75vh;
+  border-radius: 2px;
+  margin: auto;
+  padding: 2em;
+  background-color: #f6f6f6;
+  color: black;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }

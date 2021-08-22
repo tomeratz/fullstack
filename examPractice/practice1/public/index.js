@@ -1,15 +1,15 @@
 
-function navbar() {
-    let menuItemsArr = ['Home', 'Post new car', 'Get car by id', 'Delete car', 'Update car']
-    const menueItemsLinkArr = ['home()', 'postNewCar()', 'getCarById', 'deleteCarById', 'Updatecar()']
-    let navBar1 = `<nav class="navbar">`
-    for (i = 0; i < menuItemsArr.length; i++) {
-        navBar1 += `<a class="menuItems" onclick="${menueItemsLinkArr[i]}">${menuItemsArr[i]}</a>`
-    }
-    navBar1 += `</nav>`
+// function navbar() {
+// let menuItemsArr = ['Home', 'Post new car', 'Get car by id', 'Delete car', 'Update car']
+// const menueItemsLinkArr = ['home()', 'postNewCar()', 'getCarById', 'deleteCarById', 'Updatecar()']
+// let navBar1 = `<nav class="navbar"><img src="./navbar.png">`
+// for (i = 0; i < menuItemsArr.length; i++) {
+//     navBar1 += `<a class="menuItems" onclick="${menueItemsLinkArr[i]}">${menuItemsArr[i]}</a>`
+// }
+// navBar1 += `</nav>`
 
-    document.getElementById('top').innerHTML = navBar1
-}
+// document.getElementById('top').innerHTML = navBar1
+// }
 
 function postNewCar() {
     console.log('post a new car');
@@ -46,5 +46,5 @@ function Updatecar() {
     document.getElementById('content').innerHTML = htmlContent
 }
 
-navbar()
+// navbar()
 

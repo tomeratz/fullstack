@@ -9,7 +9,7 @@ module.exports = {
 
     async getAllCars() {
         const data = await Car.find({});
-        // console.log('getAllCars data: ' + JSON.stringify(data));
+        console.log('getAllCars data: ', (data));
         return data;
     },
 

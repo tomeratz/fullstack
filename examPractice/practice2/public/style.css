@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  max-height: 800px;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  width: 2em;
+  height: auto;
+}
+
+#mydiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  width: 200px;
+  border: 1px black solid;
+}
+
+.card img {
+  width: inherit;
+}
+
+.card p {
+  text-align: center;
+  padding: 0 0 0 10px;
+  margin: 5px;
+}
